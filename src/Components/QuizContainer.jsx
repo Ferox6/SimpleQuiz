@@ -1,5 +1,5 @@
 import "./QuizContainer.css"
-import {questions} from "./Data.js";
+import {questions} from "../Data.js";
 import React from "react";
 
 export default function QuizContainer({step, setStep, resultValue, setResultValue}) {

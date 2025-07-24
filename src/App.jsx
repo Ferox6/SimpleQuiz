@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css'
-import QuizContainer from "./QuizContainer.jsx";
+import QuizContainer from "./Components/QuizContainer.jsx";
 import {questions} from "./Data.js";
-import Result from "./Result.jsx";
+import Result from "./Components/Result.jsx";
 
 function App() {
     const [step, setStep] = React.useState(0);
